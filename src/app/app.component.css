@@ -1,3 +1,9 @@
 .div {
   background:black;
 }
+.mycentered-text {
+  text-align:center
+}
+*{
+  box-sizing: border-box;
+}
