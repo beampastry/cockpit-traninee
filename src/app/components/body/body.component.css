@@ -1,3 +1,26 @@
 .img1{
   display: table;
 }
+.btn-search {
+  background-color: #feff00;
+}
+
+.col-xs-2{
+  background:#00f;
+  color:#FFF;
+}
+.col-half-offset{
+  margin-left:4.166666667%
+}
+.row .col {
+  height: 100px;
+
+  padding: 10px;
+}
+button{
+  width: 150px;
+}
+.nav-item:active a{
+  color: #feff00;
+}
+

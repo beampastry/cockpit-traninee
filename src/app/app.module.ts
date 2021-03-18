@@ -6,17 +6,24 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BodyComponent } from './components/body/body.component';
 import {IvyCarouselModule} from 'angular-responsive-carousel';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { CardsComponent } from './components/cards/cards.component';
+import { Card2Component } from './components/card2/card2.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    BodyComponent
+    BodyComponent,
+    CardsComponent,
+    Card2Component
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    IvyCarouselModule
+    IvyCarouselModule,
+    NoopAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
