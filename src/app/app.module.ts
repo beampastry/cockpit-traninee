@@ -9,6 +9,7 @@ import {IvyCarouselModule} from 'angular-responsive-carousel';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { CardsComponent } from './components/cards/cards.component';
 import { Card2Component } from './components/card2/card2.component';
+import { Imgsilde2Component } from './components/imgsilde2/imgsilde2.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { Card2Component } from './components/card2/card2.component';
     HeaderComponent,
     BodyComponent,
     CardsComponent,
-    Card2Component
+    Card2Component,
+    Imgsilde2Component
   ],
   imports: [
     BrowserModule,
